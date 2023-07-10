@@ -15,13 +15,15 @@ const About = () => {
           </Zoom>
           <Fade right cascade>
               <div className='parg-btn'>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Reiciendis tempore non magnam provident nostrum, tenetur 
-                  fugit consequuntur dolor dicta libero saepe nemo culpa vel, 
-                  architecto nam necessitatibus doloribus. Velit commodi eos  
-                  debitis repellendus inventore repellat a dicta rem dignissimos quisquam!
+                <p>Nous sommes une entreprise spécialisée dans la formation,
+l'accompagnement et le conseil des entreprises en constante évolution.
+Nous offrons des programmes de formation personnalisés pour renforcer
+les compétences de votre équipe . Notre équipe de consultants
+expérimentés fournit des conseils stratégiques pour des décisions
+informatiques éclairées. Nous vous offrons également un accompagnement personnalisé pour optimiser vos processus et
+maximiser vos ressources .
                 </p>
-                <button type='button'>Get Started </button>
+                <a href="#contact" className='btn btn-primary btn-lg start'>Commencer</a>
               </div>
           </Fade>
         </div>

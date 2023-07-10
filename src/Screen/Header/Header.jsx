@@ -1,11 +1,17 @@
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
 import { TypeAnimation } from 'react-type-animation';
 import { Zoom } from 'react-reveal';
+import { toast } from 'react-toastify';
 
 const Header = () => {
+    useEffect( () => {
+        toast("Bonjour Mme/Monsieur");
+    },[]);
+
+
   const src = "https://images.pexels.com/photos/13787809/pexels-photo-13787809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   return (
     <div className='header'>
@@ -41,7 +47,7 @@ const Header = () => {
                       <div class="dot"></div>
                       <div class="dot"></div>
                     </div>
-                    <span>Go!</span>
+                    <span>Start!</span>
                   </a>
               </div>
           </Zoom>

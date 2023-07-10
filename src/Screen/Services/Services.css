@@ -3,13 +3,11 @@
     height: 100vh;
     background-color: #ecf5ff;
 }
-.title {
+.title{
     margin-top: 10px;
 }
 
-.title-1{
-    font-size: 20px;
-}
+
 .boxes{
     display: flex;
     flex-direction: row;
@@ -48,6 +46,10 @@
     font-size: 55px;
     margin: 20px 0px ;
 }
+.title-1{
+    font-size: 20px;
+}
+
 
 @media (max-width:600px){
     .Services{

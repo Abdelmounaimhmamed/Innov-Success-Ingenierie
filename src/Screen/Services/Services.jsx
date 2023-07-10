@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Services.css"
-import { Fade, Zoom } from 'react-reveal'
+import { Fade, Zoom } from 'react-reveal';
 
 const Services = () => {
   return (
     <div className='Services' id="services">
         <Fade bottom cascade>
         <h1 className='title'>Services</h1>
-        <p className='title title-1'>Nos services Inclus Dans le suivi ,Ingenirie et accompagnement </p>
+        <p className="title title-1">Nos services Inclus Dans le suivi ,Ingenirie et accompagnement </p>
         </Fade>
             <Zoom cascade bottom>
         <div className='boxes'>

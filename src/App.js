@@ -1,12 +1,6 @@
-import Header from "./Screen/Header/Header";
-import NavBar from "./Screen/NavBar/NavBar";
+
 import './App.css';
-import Contact from "./Screen/Contact/Contact";
-import About from "./Screen/About/About";
-import Footer from "./Screen/Footer/Footer";
-import Services from "./Screen/Services/Services";
 import Details from "./Screen/Details/Details";
-import Projet from "./Screen/Projet/Projet";
 import { BrowserRouter , Route , Routes } from "react-router-dom";
 import AllComponent from "./Components/AllComponent/AllComponent";
 

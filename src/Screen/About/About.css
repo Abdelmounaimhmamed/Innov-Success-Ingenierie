@@ -25,6 +25,8 @@
     align-items: flex-start;
     padding: 20px;
     margin: 0px 30px;
+    line-height: 40px;
+    text-align: justify;
 }
 .parg-btn p {
     font-size: 20px;
@@ -38,6 +40,13 @@
     border: none;
     border-radius: 5px;
     margin-top: 20px;
+}
+.start{
+    text-decoration: none;
+    transition: .5s ease-in all;
+}
+.start:hover{
+    transform: translateY(-10px);
 }
 
 @media (max-width:700px){
