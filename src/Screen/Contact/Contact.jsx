@@ -23,11 +23,12 @@ const Contact = () => {
                 subject,
                 message
             });
-            setName("");
-            setEmail("");
-            setNumero("");
-            setSubject("");
-            setMessage("");
+            
+            setName();
+            setEmail();
+            setNumero();
+            setSubject();
+            setMessage();
             toast.success("Message envoyer !!");
         } catch (error) {
             
