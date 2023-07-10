@@ -16,7 +16,7 @@ const Contact = () => {
     const handleSubmit = async  (event) => {
         event.preventDefault();
         try {
-            const {data} = await axios.post("http://localhost:4000/contact" , {
+            const {data} = await axios.post("https://good-gold-piglet-hem.cyclic.app/contact" , {
                 name , 
                 email ,
                 numero,
