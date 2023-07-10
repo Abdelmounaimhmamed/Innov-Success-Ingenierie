@@ -15,7 +15,7 @@ const Details = ({title , image , paragraph}) => {
             <p className='parag'>
               {paragraph}
             </p>
-            <a href='/' className='btn btn-1 btn-2'>Go Back</a>
+            <a href='/' className='btn btn-1 btn-2'>Acceuil</a>
         </div>
         <Footer />
     </>

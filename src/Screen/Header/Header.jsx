@@ -13,15 +13,15 @@ const Header = () => {
         <div className='balck'></div>
         <div className='some-data'>
           <Zoom bottom>
-            <div className="title title-3">Innov Success Ingenierie - ISI</div>
+            <div className="title title-3">Innov Success Ingeniérie - ISI</div>
 
             <TypeAnimation
                 sequence={[
-                  "Etudes et Ingenierie",
+                  "Etudes et Ingénierie",
                   1000,
-                  "Entreprise D'Acompagnement , conseil",
+                  "Entreprise D'Accompagnement , conseil",
                   1000, 
-                  "Entreprise de Development informatiques",
+                  "Entreprise de Dévelopment informatiques",
                   1000,
                   "Entreprise de formation",
                   1000,
