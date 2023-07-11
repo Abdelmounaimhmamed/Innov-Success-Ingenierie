@@ -18,18 +18,25 @@
     flex-wrap: wrap;
 }
 
-.proj-i{
-    width: 400px;
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 0 10px 29px 0 rgba(68,88,144,.1);
-    margin: 30px 50px;
-    overflow: hidden;
+.proj-j{
+    max-width: 400px;
+    height: 200px;
 }
 
 .image {
     width: 100%;
     height: 100%;
+}
+.proj-i {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 30px 50px;
+    overflow: hidden;
+    box-shadow: 0 10px 29px 0 rgba(68,88,144,.1);
+
+
+
 }
 
 
@@ -38,7 +45,7 @@
         width: 100%;
         height: 100%;
     }
-    .proj-i {
+    .proj-j {
         width: 350px;
         height: 250px;
     }
