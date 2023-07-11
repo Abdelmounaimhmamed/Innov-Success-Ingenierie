@@ -5,6 +5,8 @@ import { useState } from 'react';
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Social from '../../Components/Social/Social';
+import SocialBtns from '../../Components/SocialBtns/SocialBtns';
 
 const Contact = () => {
     const [name,setName] = useState();
@@ -41,33 +43,14 @@ const Contact = () => {
         <h3 className='title title-5'>Contactez nous pour plus d'information</h3>
         </Fade>
         <div className='Contact' id="contact">
-
         <Fade left cascade>
         <div className='part'>
             <Fade cascade left>
                 <ToastContainer />
                 <div className='social'>
-                        <i class="fa-solid fa-phone"></i>                    
-                        <i class="fa-solid fa-envelope"></i>
-                        <i class="fa-brands fa-linkedin"></i>
-                        <i class="fa-brands fa-facebook"></i>
+                        <Social />
                         <div className='btns'>
-                            <button type="button" class="btn btn-secondary btn-floating mx-1" >
-                                 <i class="fab fa-facebook-f"></i>
-                            </button>
-
-                            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                                 <i class="fab fa-google"></i>
-                            </button>
-                        </div>
-                        <div className='btns'>
-                            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-twitter"></i>
-                            </button>
-
-                            <button type="button" class="btn btn-secondary btn-floating mx-1">
-                            <i class="fab fa-linkedin"></i>
-                            </button>
+                           <SocialBtns />
                         </div>
                 </div>
             </Fade>
@@ -84,7 +67,6 @@ const Contact = () => {
                         <textarea className='text-area form-control'onChange={(e) => setMessage(e.target.value)}  required  placeholder='Entrer votre message '>
                         </textarea>
                         <div className='btns'>
-                            {/* <input type="submit" value={"Envoyer"}  className='btn' /> */}
                             <button type="submit" class="btn btn-primary btn-block px-5">Sign in</button>
                             <input type="reset" value={"reset"}  className='btn btn-primary btn-block px-5' />
                         </div>

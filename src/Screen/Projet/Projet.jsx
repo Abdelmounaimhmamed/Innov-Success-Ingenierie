@@ -1,10 +1,15 @@
 import React from 'react'
 import "./Projet.css";
 import { Fade } from 'react-reveal';
+import Projets from '../../Components/Projects/Projets';
 
 
 
 const Projet = () => {
+    const projets = [
+        {id :  1 , src:"innov.jpg" },
+        {id :  2 , src:"pexel.jpeg" },
+    ]
   return (
     <div className='Projets' id="projet">
          <Fade bottom duration={1200} cascade>
@@ -14,18 +19,14 @@ const Projet = () => {
                  </div>
          </Fade>
          <Fade bottom cascade>
-                 <div className='projets-boxes'>
-                         <div className="proj-i">
-                             <img src="innov.jpg" alt="" className="image" />
-                         </div>
-                         <div className="proj-i">
-                             <img src="innov.jpg" alt="" className="image" />
-                         </div>
-                 </div>
+                <div className='projets-boxes'>
+                        {projets.map( (proj) =>  
+                            (<Projets  key={proj.id} src={proj.src} />)
+                        )}
+                </div>
          </Fade>
      </div>
 
-  
   )
 }
 

@@ -16,12 +16,12 @@ const About = () => {
           <Fade right cascade>
               <div className='parg-btn'>
                 <p>Nous sommes une entreprise spécialisée dans la formation,
-l'accompagnement et le conseil des entreprises en constante évolution.
-Nous offrons des programmes de formation personnalisés pour renforcer
-les compétences de votre équipe . Notre équipe de consultants
-expérimentés fournit des conseils stratégiques pour des décisions
-informatiques éclairées. Nous vous offrons également un accompagnement personnalisé pour optimiser vos processus et
-maximiser vos ressources .
+                  l'accompagnement et le conseil des entreprises en constante évolution.
+                  Nous offrons des programmes de formation personnalisés pour renforcer
+                  les compétences de votre équipe . Notre équipe de consultants
+                  expérimentés fournit des conseils stratégiques pour des décisions
+                  informatiques éclairées. Nous vous offrons également un accompagnement 
+                  personnalisé pour optimiser vos processus et maximiser vos ressources .
                 </p>
                 <a href="#contact" className='btn btn-primary btn-lg start'>Commencer</a>
               </div>

@@ -48,6 +48,9 @@
 .start:hover{
     transform: translateY(-10px);
 }
+.image-3{
+    border-radius: 10px;
+}
 
 @media (max-width:700px){
     .About{
