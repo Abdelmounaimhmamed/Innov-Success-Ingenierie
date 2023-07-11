@@ -22,7 +22,7 @@ const Projet = () => {
                 <div className='projets-boxes'>
                         {projets.map( (proj) =>  
                             (<Projets  key={proj.id} src={proj.src} />)
-                        )}
+                            )}
                 </div>
          </Fade>
      </div>
