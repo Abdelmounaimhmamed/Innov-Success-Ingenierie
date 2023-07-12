@@ -19,7 +19,7 @@ const Header = () => {
         <div className='balck'></div>
         <div className='some-data'>
           <Zoom bottom>
-            <div className="title title-3">Innov Success Ingeniérie - ISI</div>
+            <div className="title-6 ">Innov Success Ingeniérie - ISI</div>
 
             <TypeAnimation
                 sequence={[

@@ -16,6 +16,12 @@ const Projet = () => {
                  <div className=''>
                      <h2 className='title'>Projets </h2>
                      <p className='title title-5'>Projets et Mission realises avec notre clients </p>
+                     <div className='btns'>
+                        <p className='btn btn-primary btn-lg'>Developement</p>
+                        <p className='btn btn-primary btn-lg'>Conseil</p>
+                        <p className='btn btn-primary btn-lg'>Ingenierie</p>
+                        <p className='btn btn-primary btn-lg'>Formation</p>
+                     </div>
                  </div>
          </Fade>
          <Fade bottom cascade>

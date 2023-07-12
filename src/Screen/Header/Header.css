@@ -43,6 +43,11 @@
 .title-3{
     font-weight: bolder;
 }
+.title-6 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
 
 /* Go button */
 
