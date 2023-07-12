@@ -9,6 +9,7 @@ const Projet = () => {
     const projets = [
         {id :  1 , src:"innov.jpg" },
         {id :  2 , src:"pexel.jpeg" },
+        {id :  3 , src:"https://images.pexels.com/photos/3184427/pexels-photo-3184427.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" }
     ]
   return (
     <div className='Projets' id="projet">
@@ -16,12 +17,14 @@ const Projet = () => {
                  <div className=''>
                      <h2 className='title'>Projets </h2>
                      <p className='title title-5'>Projets et Mission realises avec notre clients </p>
-                     <div className='btns'>
-                        <p className='btn btn-primary btn-lg'>Developement</p>
-                        <p className='btn btn-primary btn-lg'>Conseil</p>
-                        <p className='btn btn-primary btn-lg'>Ingenierie</p>
-                        <p className='btn btn-primary btn-lg'>Formation</p>
-                     </div>
+                     <Fade bottom cascade duration={1200}>
+                        <div className='btns'>
+                            <p className='btn btn-primary btn-lg'>Developement</p>
+                            <p className='btn btn-primary btn-lg'>Conseil</p>
+                            <p className='btn btn-primary btn-lg'>Ingenierie</p>
+                            <p className='btn btn-primary btn-lg'>Formation</p>
+                        </div>
+                     </Fade>
                  </div>
          </Fade>
          <Fade bottom cascade>
