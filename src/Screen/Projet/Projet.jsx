@@ -18,7 +18,7 @@ const Projet = () => {
                      <h2 className='title'>Projets </h2>
                      <p className='title title-5'>Projets et Mission realises avec notre clients </p>
                      <Fade bottom cascade duration={1200}>
-                        <div className='btns'>
+                        <div className='btns btns-2'>
                             <p className='btn btn-primary btn-lg'>Developement</p>
                             <p className='btn btn-primary btn-lg'>Conseil</p>
                             <p className='btn btn-primary btn-lg'>Ingenierie</p>
