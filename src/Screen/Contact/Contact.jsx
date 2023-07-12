@@ -67,7 +67,7 @@ const Contact = () => {
                         <textarea className='text-area form-control'onChange={(e) => setMessage(e.target.value)}  required  placeholder='Entrer votre message '>
                         </textarea>
                         <div className='btns'>
-                            <button type="submit" class="btn btn-primary btn-block px-5">Sign in</button>
+                            <button type="submit" class="btn btn-primary btn-block px-5">Envoyer </button>
                             <input type="reset" value={"reset"}  className='btn btn-primary btn-block px-5' />
                         </div>
                     </div>

@@ -11,17 +11,30 @@ const Details = ({title , image , paragraph}) => {
         <Zoom bottom duration={1000}>
             <h1 className='title title-4'>{title} </h1>
         </Zoom>
-        <div className='details'>
-          <Fade bottom  cascade>
-            <div className=''>
-                <img className='image-details' src={`${image}`} alt='' />
+        <div className='sections'>
+          <div className='details'>
+            <Fade bottom  cascade>
+              <div className=''>
+                  <img className='image-details' src={`${image}`} alt='' />
+              </div>
+              <h3 className='title-3 mt-3 title-7 '>Presentation</h3>
+              <p className='parag'>
+                {paragraph}
+              </p>
+              <a href='/' className='btn btn-primary btn-lg '>Acceuil</a>
+            </Fade>
+          </div>
+          <div className="helps">
+            <h1 className='title'>Services</h1>
+            <div className="help-1">
+              <a className='btn' href="/Etudes">Etudes et Ingenirie</a>
+              <a className='btn' href="/formation">Formation</a>
+              <a className='btn' href="/Acompagnement">Accomapgnement et conseil</a>
+              <a className='btn' href="/Development">Development informatiques</a>
             </div>
-            <p className='parag'>
-              {paragraph}
-            </p>
-            <a href='/' className='btn btn-1 btn-2'>Acceuil</a>
-          </Fade>
+          </div>
         </div>
+
 
 
         <Footer />
