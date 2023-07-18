@@ -5,6 +5,8 @@ import "./Details.css";
 import { Fade, Zoom } from 'react-reveal';
 
 const Details = ({title , image , paragraph}) => {
+  const data = paragraph.split("  ");
+  
   return (
     <>
         <NavBar />
@@ -19,7 +21,10 @@ const Details = ({title , image , paragraph}) => {
               </div>
               <h3 className='title-3 mt-3 title-7 '>Presentation</h3>
               <p className='parag'>
-                {paragraph}
+                {
+                  data.map( par => ( <p> {par}</p>))
+
+                }
               </p>
               <a href='/' className='btn btn-primary btn-lg '>Acceuil</a>
             </Fade>

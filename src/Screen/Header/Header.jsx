@@ -19,18 +19,19 @@ const Header = () => {
         <div className='balck'></div>
         <div className='some-data'>
           <Zoom bottom>
-            <div className="title-6 ">Innov Success Ingeniérie - ISI</div>
+            <div className="title-6 ">Innov Success Ingénierie - ISI</div>
 
             <TypeAnimation
                 sequence={[
                   "Etudes et Ingénierie",
                   1000,
-                  "Entreprise D'Accompagnement , conseil",
+                  "Entreprise D'Accompagnement , Conseil",
                   1000, 
-                  "Entreprise de Dévelopment informatiques",
+                  "Entreprise De Dévelopement Informatiques",
                   1000,
-                  "Entreprise de formation",
+                  "Entreprise de Formation",
                   1000,
+                  "Le pouvoir D'innover Et De Prospérer"
              ]}
               wrapper="span"
               speed={10}
@@ -38,6 +39,7 @@ const Header = () => {
               repeat={Infinity}
             />
           </Zoom>
+          
           <Zoom  bottom duration={1600}>
               <div id="wrapper">
                   <a href="#contact" class="my-super-cool-btn">

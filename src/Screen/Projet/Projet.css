@@ -2,7 +2,7 @@
 
 .Projets{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,6 +19,7 @@
     background-color: #ecf5ff;
     padding: 20px;
     margin-top: 20px;
+
 }
 
 .proj-j{
@@ -38,9 +39,6 @@
     margin: 30px 50px;
     overflow: hidden;
     box-shadow: 0 10px 29px 0 rgba(68,88,144,.1);
-
-
-
 }
 
 
